@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Checkout.P1.BasketManagement.Domain\Checkout.P1.BasketManagement.Domain.csproj" />
+    <ProjectReference Include="..\..\Checkout.P1.ProductManagement\Checkout.P1.ProductManagement.csproj" />
+    <ProjectReference Include="..\Checkout.P1.BasketManagement.Infrastructure\Checkout.P1.BasketManagement.Infrastructure.csproj" />
+    <ProjectReference Include="..\Checkout.P1.BasketManagement.Application.Core\Checkout.P1.BasketManagement.Application.Core.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>
